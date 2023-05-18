@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.score {
+  position: relative;
+  background-color: #FFC0CB;
+  z-index: 1;
+}
+
+.background {
+  background-color: #FFC0CB;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.dot {
+  height: 50px;
+  width: 50px;
+  background-color:#282c34;
+  border-radius: 50%;
+  display: inline-block;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  z-index: 2; 
+}
+
